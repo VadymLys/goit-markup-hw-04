@@ -441,14 +441,14 @@ text-align: center;
     text-align: center;
 }
 
-.our-icons-list {
+.our-icons-icons {
     display: flex;
     justify-content: center;
     gap: 24px;
   }
 
 
-.our-icons-items {
+.team-icons-items {
     width:40px;
     height:40px;
     
