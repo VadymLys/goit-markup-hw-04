@@ -537,12 +537,16 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 
-.social-media-wrapper {
-  margin-right:120px;
- 
-  
-
+.logo-footer-wrapper {
+   margin-right:120px; 
 }
+
+.social-media-wrapper {
+  
+ 
+}
+
+
 
 .container-footer{
   display: flex;
