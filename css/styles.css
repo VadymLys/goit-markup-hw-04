@@ -271,10 +271,11 @@ text-align: center;
 }
 
  
-.app-item:hover {
+.app-item:hover .container-bank-text{
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
- }
+  }
+
 
 
 .container-bank-image {
@@ -445,14 +446,14 @@ text-align: center;
     text-align: center;
 }
 
-.our-team-icons {
+.our-icons-list {
     display: flex;
     justify-content: center;
     gap: 24px;
   }
 
 
-.team-icons-items {
+.our-icons-items {
     width:40px;
     height:40px;
     
@@ -535,11 +536,10 @@ margin-bottom: 16px;
 
 .social-media-wrapper {
   margin-right:120px;
-}
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 
-.container-footer{
-    display: flex;
-    align-items: baseline;
 }
 
 .social-media-list{
