@@ -553,10 +553,7 @@ margin-bottom: 16px;
    margin-right:120px; 
 }
 
-.social-media-wrapper {
-  
- 
-}
+
 
 
 
@@ -592,6 +589,6 @@ margin-bottom: 16px;
     background-color: #31d0aa;
 }
 
-.social-media-link.focus{
+.social-media-link:focus{
     background-color: #31d0aa;
 }
