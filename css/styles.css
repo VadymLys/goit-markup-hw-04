@@ -265,16 +265,19 @@ text-align: center;
     row-gap:48px;
 }
 
- .app-item{ 
+ .app-item { 
      width:calc((100% - 48px) / 3);
      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- 
+ .app-item:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 .app-item:hover .container-bank-text{
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
-  }
+   transform: translateY(0%);
+}
 
 
 
@@ -536,11 +539,16 @@ margin-bottom: 16px;
 
 .social-media-wrapper {
   margin-right:120px;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
+ 
+  
 
 }
+
+.container-footer{
+  display: flex;
+  align-items: baseline;
+}
+
 
 .social-media-list{
    display: flex;
